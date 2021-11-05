@@ -5,15 +5,16 @@ import "./modal.css";
  * Modal
  *
  * Aufgabe:
- *   Wenn jemand auf close drückt, dann mithilfe eines Properties (`this.props.onClose`) den Parent informiert werden.
+ *   Das Modal soll den Parent über den click des Schließenbuttons informieren. Nutze dafür das property "onClose" vom
+ *   Modal.
  *
  * Bonus Aufgabe:
  *   Man kann Komponenten als Decorator verwenden. Zeige den inhalt des <Modal> Tag als Content an.
  *   Hints:
  *     `<Modal>Inhalt</Modal>`
- *     `this.props.children`
+ *     `{children}`
  */
-const Modal: React.FC = () => {
+const Modal: React.FC<{onClose?: () => void}> = ({onClose}) => {
     return (
         <div className="modal_layer">
             <div className="modal_box">

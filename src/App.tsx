@@ -7,7 +7,6 @@ import Exercise2 from './exercises/exercise2';
 import Exercise3 from "./exercises/exercise3";
 import Exercise4 from "./exercises/exercise4";
 import Exercise5 from "./exercises/exercise5";
-import Exercise6 from "./exercises/exercise6";
 
 function Intro() {
   return (
@@ -34,9 +33,6 @@ function Intro() {
             <li>
               <Link to="/exercise-5">Aufgabe 5</Link>
             </li>
-            <li>
-              <Link to="/exercise-6">Aufgabe 6</Link>
-            </li>
           </ul>
         </nav>
       </React.Fragment>
@@ -54,7 +50,6 @@ function App() {
               <Route path="/exercise-3" exact component={Exercise3}/>
               <Route path="/exercise-4" exact component={Exercise4}/>
               <Route path="/exercise-5" exact component={Exercise5}/>
-              <Route path="/exercise-6" exact component={Exercise6}/>
           </header>
         </div>
       </Router>

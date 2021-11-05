@@ -12,7 +12,7 @@ const Exercise3: React.FC = () => {
                         Baue einen Countdown, der von 10 nach 0 runterzählt. Bei 0 angekommen soll "Ring!" angezeigt werden.
                     </p>
                     <pre>
-                        src/exercise3/Countdown.js<br/>
+                        src/exercises/exercise3/Countdown.tsx<br/>
                     </pre>
                 </Exercise>
             </div>

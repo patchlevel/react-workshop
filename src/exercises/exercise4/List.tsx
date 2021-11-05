@@ -24,17 +24,21 @@ const style = {
     }
 };
 
+/*
+ * List
+ *
+ * Aufgabe:
+ *   Die Daten sollen in der Tabelle dargestellt werden.
+ *   Diese Daten sollen Suchbar (nach name) und sortierbar sein.
+ *
+ * Bonus Aufgabe:
+ *   Wenn keine Artikel gefunden wurden, dann soll eine dementsprechende Information stattdessen angezeigt werden.
+ *   Zeige die nicht verfügbare Artikel gesondert an (zB. Rot).
+ *   Füge eine Selectbox hinzu, um nach verfügbaren Artikel zu filtern.
+ */
 const List: React.FC = () => {
-    const [counter, setCounter] = useState(100);
-    /*
-     * Führt den callback jede Sekunde aus.
-     * Mit `clearInterval(this.interval)` kann das interval beendet werden.
-     */
-    const interval = setInterval(
-        () => {
-        },
-        1000
-    );
+    const [search, setSearch] = useState('');
+    const [sort, setSort] = useState('');
 
     return (
         <div>

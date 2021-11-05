@@ -12,7 +12,7 @@ const Exercise4: React.FC = () => {
                         Zeige die Fixtures Daten in der Tabelle an und füge eine Such- und Sortierfunktion ein.
                     </p>
                     <pre>
-                        src/exercise4/List.js
+                        src/exercises/exercise4/List.tsx
                     </pre>
                 </Exercise>
             </div>

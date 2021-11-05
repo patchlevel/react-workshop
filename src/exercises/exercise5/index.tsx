@@ -12,8 +12,8 @@ const Exercise5: React.FC = () => {
                         Es soll automatisch ein QR-Code erzeugt werden, wenn das Textfeld befüllt wird.
                     </p>
                     <pre>
-                        src/exercise5/Control.js<br/>
-                        src/exercise5/QrCode.js
+                        src/exercises/exercise5/Control.tsx<br/>
+                        src/exercises/exercise5/QrCode.tsx
                     </pre>
                 </Exercise>
             </div>

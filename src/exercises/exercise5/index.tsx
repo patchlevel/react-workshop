@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import Exercise from "../../components/Exercise";
-import Control from "./Control";
+import Overview from "./Overview";
 
 const Exercise5: React.FC = () => {
     return (
@@ -9,16 +9,15 @@ const Exercise5: React.FC = () => {
             <div className="App-row">
                 <Exercise>
                     <p>
-                        Es soll automatisch ein QR-Code erzeugt werden, wenn das Textfeld befüllt wird.
+                        Verwende eine beliebige API um Daten anzuzeigen.
                     </p>
                     <pre>
-                        src/exercises/exercise5/Control.tsx<br/>
-                        src/exercises/exercise5/QrCode.tsx
+                        src/exercises/exercise6/Overview.tsx
                     </pre>
                 </Exercise>
             </div>
             <div className="App-row">
-                <Control/>
+                <Overview/>
             </div>
             <div className="App-row">
                 <Link to="/">Zurück</Link>

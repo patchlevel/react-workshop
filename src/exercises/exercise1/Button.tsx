@@ -5,7 +5,7 @@ import React, {useState} from "react";
  *
  * Aufgabe:
  *   Im Button soll der Inhalt von counter angezeigt werden.
- *   Bei jedem Klick soll diese Zahl erhöht werden.
+ *   Bei jedem Klick soll diese Zahl erhöht werden. Starten soll der counter bei 0.
  */
 const Button: React.FC = () => {
     /*
@@ -14,7 +14,7 @@ const Button: React.FC = () => {
      * callback um den state zu setzen und somit zu manipulieren bzw. aktualisieren. Der parameter für useState ist der
      * initiale State der verwendet werden soll.
      */
-    const [counter, setCounter] = useState(0);
+    const [counter, setCounter] = useState(1);
     const notCounter = 'Click me!';
 
     /*

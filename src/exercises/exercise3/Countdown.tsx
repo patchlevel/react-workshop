@@ -9,8 +9,10 @@ import React, {useState} from "react";
  *   Das Interval soll registriert werden, wenn die Komponente angezeigt wird und soll wieder Entfernt werden, wenn die
  *   Komponente nicht mehr benutzt wird.
  *
- * Bonus Aufgabe:
+ * Bonus Aufgabe(n):
  *   Füge ein Reset-Button hinzu, um den State wieder auf 10 zu setzen.
+ *   Führe ein extra Hook ein um setInterval zu handeln.
+ *   Das Interval soll stoppen sobald der countdown bei 0 ist.
  */
 const Countdown: React.FC = () => {
     const [counter, setCounter] = useState(100);
